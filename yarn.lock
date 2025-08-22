@@ -6928,6 +6928,11 @@ react-native-asset@^2.1.1:
     sha1-file "^1.0.4"
     xcode "^2.0.0"
 
+react-native-config@^1.5.6:
+  version "1.5.6"
+  resolved "https://registry.npmjs.org/react-native-config/-/react-native-config-1.5.6.tgz"
+  integrity sha512-UB3LEco0FGGbbGvS+DfH2VmGKiP/y5C2MkmfBmfsIaxHSbM1KOTMKYG7YRf6xFhZbJ/01BedHG7SIny5i7N9BQ==
+
 react-native-device-info@^14.0.2:
   version "14.0.2"
   resolved "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-14.0.2.tgz"

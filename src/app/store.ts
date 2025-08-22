@@ -7,12 +7,12 @@ export const store = configureStore({
     newsList: newsListReducer,
     newsDetail: newsDetailReducer,
   },
-  //   middleware: getDefaultMiddleware =>
-  //     getDefaultMiddleware({
-  //       serializableCheck: {
-  //         ignoredActions: ['persist/PERSIST'],
-  //       },
-  //     }),
+  middleware: getDefaultMiddleware =>
+    getDefaultMiddleware({
+      serializableCheck: {
+        ignoredActions: ['persist/PERSIST'],
+      },
+    }),
 });
 
 export type RootState = ReturnType<typeof store.getState>;
